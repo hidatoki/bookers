@@ -1,2 +1,143 @@
-<h1>Books#index</h1>
-<p>Find me in app/views/books/index.html.erb</p>
+<body>
+  <p id="notice"></p>
+  <h1>Books</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Body</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+         <td>リーダブルコード</td>
+         <td>より良いコードを書くためのシンプルで実践的なテクニック</td>
+         <td>
+           <a class="show_35718" href="/books/35718">Show</a>
+         </td>
+         <td>
+           <a class="edit_35718" href="/books/35718">Edit</a>
+         </td>
+         <td>
+           <a data-confirm="Are you sure?" class="destroy_35718" rel="nofollow" data-method="delete" href="/books/35718">
+           Destroy</a>
+         </td>
+      </tr>
+      <tr>
+         <td>リーダブルコード</td>
+         <td>より良いコードを書くためのシンプルで実践的なテクニック</td>
+         <td>
+           <a class="show_35719" href="/books/35719">Show</a>
+         </td>
+         <td>
+           <a class="edit_35719" href="/books/35719">Edit</a>
+         </td>
+         <td>
+           <a data-confirm="Are you sure?" class="destroy_35719" rel="nofollow" data-method="delete" href="/books/35719">
+           Destroy</a>
+         </td>
+      </tr>
+      <tr>
+         <td>リーダブルコード</td>
+         <td>より良いコードを書くためのシンプルで実践的なテクニック</td>
+         <td>
+           <a class="show_35720" href="/books/35720">Show</a>
+         </td>
+         <td>
+           <a class="edit_35720" href="/books/35720">Edit</a>
+         </td>
+         <td>
+           <a data-confirm="Are you sure?" class="destroy_35720" rel="nofollow" data-method="delete" href="/books/35720">
+           Destroy</a>
+         </td>
+      </tr>
+      <tr>
+         <td>リーダブルコード</td>
+         <td>より良いコードを書くためのシンプルで実践的なテクニック</td>
+         <td>
+           <a class="show_35721" href="/books/35721">Show</a>
+         </td>
+         <td>
+           <a class="edit_35721" href="/books/35721">Edit</a>
+         </td>
+         <td>
+           <a data-confirm="Are you sure?" class="destroy_35721" rel="nofollow" data-method="delete" href="/books/35721">
+           Destroy</a>
+         </td>
+      </tr>
+      <tr>
+         <td>リーダブルコード</td>
+         <td>より良いコードを書くためのシンプルで実践的なテクニック</td>
+         <td>
+           <a class="show_35722" href="/books/35722">Show</a>
+         </td>
+         <td>
+           <a class="edit_35722" href="/books/35722">Edit</a>
+         </td>
+         <td>
+           <a data-confirm="Are you sure?" class="destroy_35722" rel="nofollow" data-method="delete" href="/books/35722">
+           Destroy</a>
+         </td>
+      </tr>
+      <tr>
+         <td>リーダブルコード</td>
+         <td>より良いコードを書くためのシンプルで実践的なテクニック</td>
+         <td>
+           <a class="show_35723" href="/books/35723">Show</a>
+         </td>
+         <td>
+           <a class="edit_35723" href="/books/35723">Edit</a>
+         </td>
+         <td>
+           <a data-confirm="Are you sure?" class="destroy_35723" rel="nofollow" data-method="delete" href="/books/35723">
+           Destroy</a>
+         </td>
+      </tr>
+      <tr>
+         <td>リーダブルコード</td>
+         <td>より良いコードを書くためのシンプルで実践的なテクニック</td>
+         <td>
+           <a class="show_35724" href="/books/35724">Show</a>
+         </td>
+         <td>
+           <a class="edit_35724" href="/books/35724">Edit</a>
+         </td>
+         <td>
+           <a data-confirm="Are you sure?" class="destroy_35724" rel="nofollow" data-method="delete" href="/books/35724">
+           Destroy</a>
+         </td>
+      </tr>
+      <tr>
+         <td>リーダブルコード</td>
+         <td>より良いコードを書くためのシンプルで実践的なテクニック</td>
+         <td>
+           <a class="show_35725" href="/books/35725">Show</a>
+         </td>
+         <td>
+           <a class="edit_35725" href="/books/35725">Edit</a>
+         </td>
+         <td>
+           <a data-confirm="Are you sure?" class="destroy_35725" rel="nofollow" data-method="delete" href="/books/35725">
+           Destroy</a>
+         </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>New book</h2>
+  <form class="new_book" id="new_book" action="/books" accept-charset="UTF-8" method="post">
+    <input name="utf8" type="hidden" value="✔️">
+    <input type="hidden" name="authenticity_token" value="izTqFF+1a7hlRrHbIPlyEh415EHRosSa9dvpmoCPrWqk02VsRle+xt1geWV3T/FTfP+27q+Jt2WaGHqt0mZHUw==">
+    <div class="field">
+     <label for="book_title">Title</label>
+     <input class="book_title" type="text" name="book[title]" id="book_title">
+    </div>
+    <div class="field">
+     <label for="book_body">Body</label>
+     <textarea class="book_body" name="book[body]" id="book_body"></textarea>
+    </div>
+    <div class="actions">
+     <input type="submit" name="commit" value="Create Book" data-disable-with="Create Book">
+    </div>
+  </form>
+</body>
